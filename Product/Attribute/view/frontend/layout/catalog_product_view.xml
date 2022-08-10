@@ -8,10 +8,5 @@
                 </arguments>
             </block>
         </referenceBlock>
-
-        <move element="product.info.stock.sku" destination="product.info.price" after="product.price.final"/>
-        <move element="product.info.review" destination="product.info.main" before="product.info.price"/>
-
-
     </body>
 </page>
